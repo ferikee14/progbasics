@@ -60,6 +60,7 @@ console.log(x);          // undefined
 **Tömb példa**
 ```javascript
 let fruits = ["alma", "banán", "cseresznye"];
+//let things = ["ásó", "kapa", "nagyharang"];
 console.log("Első gyümölcs:", fruits[0]);  // alma
 console.log("Összes gyümölcs:", fruits);
 
@@ -105,8 +106,8 @@ console.log("Számból szöveg:", str2);
 
 6. **`prompt()` függvény – Felhasználói adatbekérés**
 ```javascript
-let username = prompt("Mi a neved?");
-console.log(`Szia, ${username}!`);
+let username = prompt("Mi a neved?"); //honnan tudja ez a függvény hogy én a kesma cms-ből akarom a usereket pl?
+console.log(`Szia, ${username}!`); // ez a szintaktikai követelmény mikor kell?
 ```
 
 ➡️ **Fontos:** A `prompt()` csak böngészőben működik. Ehhez használjuk a **Live Server** bővítményt.

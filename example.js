@@ -167,3 +167,18 @@ console.log(`Szia, ${username}!`);
 // git commit -m "Elso commit"
 // git remote add origin <URL>
 // git push -u origin main
+
+
+
+//3. házi próbálkozás
+
+let title = "Keresztapa";
+let director = "Falusi Géza";
+let releaseYear = 1991;
+let isMovie = true;
+
+
+console.log("Title:", title);
+console.log("Director:", director);
+console.log("Release year:", releaseYear)
+console.log("Film-e?:", true);
